@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dojonary</title>
+        <title>likes-project</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Moon+Dance&display=swap" rel="stylesheet">
@@ -17,44 +17,65 @@
             </div>
             <h1 class="Feed">Your Feed</h1>
             <div class="cuerpogeneral">
-                <div class="cuerpo">
-                    <div class="tarjeta">
-                        <div class="perfil">
-                            <img src="./imagenes/user-circle.png" alt="photo perfil" class="avatar">
-                            <p><a href="#">Add an avatar</a></p>
-                            <h2>John Doe</h2>
-                        </div>
+                <div class="perfilgeneral">
+                    <div class="perfil">
+                        <img src="./imagenes/user-circle.png" alt="photo perfil" class="avatarimg">
+                        <p><a href="#">Add an avatar</a></p>
+                        <h2>James Doe</h2>
                     </div>
-                    <div class="cajasgral">
-                        <div class="caja">
-                            <div class="superiornombre">
-                                <h2>Neil M</h2>
+                </div>
+                <div class="cajasgeneral">
+                    <div class="caja">
+                        <div class="top">
+                            <h2>Neil M</h2>
+                            <div class=prueba>
                                 <div class="likes">
-                                    <span id="post">9 like(s)</span>
-                                    <button class="likebut" onclick="like(0)">Like</button>
+                                    9
+                                </div>
+                                <span class="numeroin">like(s)</span>                   
+                                <div class="agregaLike">    
+                                    <button class="botonLike" onclick="actualizalike(this)">
+                                        Like
+                                    </button>
                                 </div>
                             </div>
-                            <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
                         </div>
-                        <div class="caja">
-                            <div class="superiornombre">
-                                <h2>Nichole K</h2>
+                        <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                    </div>
+                    <div class="caja">
+                        <div class="top">
+                            <h2>Nichole K</h2>
+                            <div class=prueba>
                                 <div class="likes">
-                                    <span id="post">12 like(s)</span>
-                                    <button class="likebut" onclick="like(0)">Like</button>
+                                    12
+                                </div>
+                                <span class="numeroin">like(s)</span>                    
+                                <div class="agregaLike">    
+                                    <button class="botonLike" onclick="actualizalike(this)">
+                                        Like
+                                    </button>
                                 </div>
                             </div>
-                            <p>Just finished my <a href="#">next comic</a>, check it out.</p>
                         </div>
-                        <div class="caja">
-                            <div class="superiornombre">
-                                <h2>Jim R</h2>
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                    <div class="caja">
+                        <div class="top">
+                            <h2>Jim R</h2>
+                            <div class=prueba>
                                 <div class="likes">
-                                    <span id="post">9 like(s)</span>
-                                    <button class="likebut" onclick="like(0)">Like</button>
+                                    9
+                                </div>
+                                <span class="numeroin">like(s)</span>                    
+                                <div class="agregaLike">    
+                                    <button class="botonLike" onclick="actualizalike(this)">
+                                        Like
+                                    </button>
                                 </div>
                             </div>
-                            <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>                        </div>
+                        </div>
+                        <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                    </div>
             </div>
         </div>
         <script src="./JS/index.js"></script>
